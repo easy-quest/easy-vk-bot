@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+
+curl 'https://api.vk.com/method/users.get?fields=photo_50%2Cphoto_100%2Cdomain&access_token=vk1.a._58-ambqnp0IVhmrKySXFDJWSt1Z0sfzfx0BEGq9tKNUbGnuJxImutlrh6yjuimN4jx1LgWn78AAkyU2Zfcj4GzXLkWQLG5V-v1Q5kMTgnmfqStf6BHZOJteG5wHIen7tjqn5UXhxcP-OoSerU2v40pjFDoGQBPkEeufCKzI-0WBkPpsiWIT1ZE9D-JDVEf2&v=5.131&user_ids=660621363' -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux aarch64; rv:75.0) Gecko/20100101 Firefox/75.0' -H 'Accept: */*' -H 'Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3' --compressed -H 'Referer: https://dev.vk.com/method/friends.get' -H 'Origin: https://dev.vk.com' -H 'Connection: keep-alive' --data ''
