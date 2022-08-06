@@ -6,6 +6,12 @@ import json
 import requests
 from rich import print
 from rich import print_json
+import vk_api
+
+login, password = '+79388670228', 'XN3PFd8owuK%XZzE'
+#  vk_session = vk_api.VkApi('+79388670228', 'XN3PFd8owuK%XZzE')
+#  vk_session.auth()
+#  vk = vk_session.get_api()
 
 token = 'vk1.a.j5Nig09jcaELbyAkC4-apZMkbq0pxJOto2RtH7TWj-fEJBb9O-RmNWDUGOR7xfN6A7DIpjetlaP_R9fLFHP8dCPnmXsYIK6f-qHKtiTbPKYXFZKtiP6ykxbwDlXx72cdhn0RuZAelto21SedE9xJIM7oSCctS0jnAZZgH1I8r61HtRoAK_6UUTE6Ds3KTXaf'
 user_id = '660621363'
@@ -21,6 +27,4 @@ headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
 }
 
-params = {
-    'fields': 'bdate,city'
-}
+params = {'fields': 'bdate,city'}
