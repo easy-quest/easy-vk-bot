@@ -22,5 +22,5 @@ headers = {
 }
 
 params = {
-    'fields': 'bdate,city',
+    'fields': 'bdate,city'
 }
